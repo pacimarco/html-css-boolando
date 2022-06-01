@@ -9,6 +9,8 @@ header{
     width: 100%;
     background-color: rgb(252, 81, 8);
     position: fixed;
+    top: 0px;
+    left: 0px;
     display: flex;
     
 }
@@ -69,7 +71,7 @@ main{
     margin-bottom: 20px;
     width: calc(97%/3);
     height: 45%;
-    border: dotted 1px black;
+    
     padding: 15px;
 }
 
@@ -112,7 +114,16 @@ bottom: 50px;
     bottom: 50px;
 }
 
-    .sconto-50{
+.c-6{
+    height: 20px;
+width: 100px;
+display: flex;
+position: absolute;
+bottom: 50px;
+}
+    
+
+.sconto-50{
     height: 100%;
     width: calc(99%/3);
     background-color: red;
@@ -158,3 +169,40 @@ bottom: 50px;
     position: relative;
 }
 
+.marca-prezzo{
+    height: 35px;
+    width: 120px; 
+    font-size: 10px;
+}
+
+span{
+    color: red;
+}
+.griffe{
+    color: gray;
+}
+del{
+    color: gray;
+}
+
+.heart{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heart:hover{
+    color: red;
+}
+
+/* fine main*/
+
+/* inizio footer*/
