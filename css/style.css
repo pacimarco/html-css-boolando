@@ -51,7 +51,7 @@ header{
 
 /* inizio main */
 main{
-    height: 1560px;
+    height: 1300px;
     width: 100%;
     
 }
@@ -206,3 +206,27 @@ del{
 /* fine main*/
 
 /* inizio footer*/
+
+.main-footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+.info{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.trovaci{
+    height: 100%;
+    width: 50%;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
