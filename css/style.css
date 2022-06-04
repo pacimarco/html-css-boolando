@@ -221,6 +221,7 @@ del{
     color: white;
     font-size: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 .trovaci{
@@ -229,4 +230,25 @@ del{
     color: white;
     font-size: 10px;
     text-align: center;
+}
+.contatti{
+    display: flex;
+    padding: 10px;
+    
+}
+
+ul{
+    text-align: center;
+    justify-content: space-around;
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    align-content: space-around;
+
+}
+
+li{
+    
+    color: white;
 }
