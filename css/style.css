@@ -51,7 +51,7 @@ header{
 
 /* inizio main */
 main{
-    height: 1300px;
+    height: calc(100%-140px);
     width: 100%;
     
 }
@@ -239,16 +239,23 @@ del{
 
 ul{
     text-align: center;
-    justify-content: space-around;
     justify-content: center;
+    
     display: flex;
     list-style-type: none;
     color: white;
-    align-content: space-around;
+    
+    
 
 }
 
 li{
     
     color: white;
+    padding: 0px 5px;
+
+}
+
+footer i{
+color: white;
 }
